@@ -18,9 +18,7 @@ export class CounterParentComponent implements OnInit {
   }
 
   decreasebyOne(){
-    this.counterComponent.decrease(
-      
-    );
+    this.counterComponent.decrease();
   }
 
 }
