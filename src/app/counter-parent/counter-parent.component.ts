@@ -15,6 +15,7 @@ export class CounterParentComponent implements OnInit {
 
   increasebyOne(){
     this.counterComponent.increase();
+    console.log("hi");
   }
 
   decreasebyOne(){
